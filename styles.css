@@ -1,0 +1,162 @@
+/* GLOBAL STLYES */
+body {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+
+h1,h2,h3 {
+    font-family: 'Oswald', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    color: #fff;
+}
+
+/* NAVBAR */
+.navbar {
+    height: 100px;
+    background-color: #1573E7;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.navbar-logo {
+    height: 100px;
+}
+
+.navbar-nav {
+    float: right;
+}
+
+.nav-item {
+    color: #fff;
+    float: left;
+    padding: 5px;
+    margin: 5px;
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    background-color: aqua;
+    border: 5px solid white;
+    border-radius: 5px;
+}
+
+.nav-item:hover {
+    border: dotted yellow;
+}
+
+.nav-item a:hover {
+    color: #4d4d4d;
+}
+
+/* HERO IMAGE */
+.hero-img {
+    height: 875px;
+    width: 100%;
+    background-image:url("./img/180725-torres-trump-shark-hero_mnktqy.webp"); 
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.hero-header { 
+    color: red;
+    position: absolute;
+    left: 900px;
+    top: 450px;
+}
+
+.home-content {
+    height: 600px;
+    width: 100%;
+    background-color: lightgray;
+}
+
+.content-img {
+    height: 250px;
+    width: 400px;
+    background-image: url("./img/shark_1280p.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: inline-block;
+    position: relative;
+    top: 80px;
+    left: 150px;
+}
+
+.content-para{
+    height: 400px;
+    width: 270px;
+    background-color: cadetblue;
+    position: relative;
+    top: 30px;
+    left: 640px;
+    display: inline-block;
+}
+
+.contact-column {
+    width: 50%;
+    float: left;
+}
+
+/* ABOUT STYLES */
+.about-container {
+    height: 700px;
+    width: 100%;
+    margin-top: 120px;
+    margin-bottom: 20px;
+}
+
+.about-column {
+    width: 28%;
+    border: 2px solid #000;
+    float: left;
+    padding: 25px 20px;
+    margin-left: 20px;
+    overflow: hidden;
+    text-align: center;
+}
+
+.about-img {
+    height: 300px;
+    width: 250px;
+    margin: auto;
+}
+
+.about-button{
+    box-shadow: 2px 2px #4d4d4d;
+}
+
+.about-audio {
+    margin-bottom: 250px;
+}
+
+.about-video{
+    width: 100%;
+    padding-right: 10px;
+}
+
+/* FOOTER */
+.footer {
+    background-color: #1573E7;
+    height: 100px;
+    width: 100%;
+    clear: left;
+}
+
+.footer-item {
+    float: left;
+    margin-top: 30px;
+    margin-left: 300px;
+}
+
+.icons{
+    font-size: 30px;
+    color: red;
+}
